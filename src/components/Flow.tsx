@@ -1,3 +1,4 @@
+import Flow from '../assets/Flow.png';
 export default function Flow() {
   return (
     <section id="flow" className="relative py-20 bg-[#0F1629]">
@@ -18,7 +19,7 @@ export default function Flow() {
 
             <div className="flex items-center justify-center">
               <img
-                src="/assets/Flow.png"
+                src={Flow}
                 alt="VaultNet Flow Diagram"
                 className="rounded-2xl border border-[#38BDF8]/40 shadow-lg max-w-full h-auto"
               />

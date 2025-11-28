@@ -1,5 +1,3 @@
-import { Linkedin, Github, Globe, Mail } from 'lucide-react';
-
 export default function Footer() {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -20,36 +18,6 @@ export default function Footer() {
               Secure financial intelligence powered by confidential edge AI. Privacy-first, compliant, and lightning-fast.
             </p>
             <div className="flex space-x-4">
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-[#38BDF8]/20 rounded-lg flex items-center justify-center hover:bg-[#38BDF8]/30 transition-all border border-[#38BDF8]/30 hover:border-[#38BDF8]/60"
-              >
-                <Linkedin className="text-[#38BDF8]" size={18} />
-              </a>
-              <a
-                href="https://github.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-[#38BDF8]/20 rounded-lg flex items-center justify-center hover:bg-[#38BDF8]/30 transition-all border border-[#38BDF8]/30 hover:border-[#38BDF8]/60"
-              >
-                <Github className="text-[#38BDF8]" size={18} />
-              </a>
-              <a
-                href="https://portfolio.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-[#38BDF8]/20 rounded-lg flex items-center justify-center hover:bg-[#38BDF8]/30 transition-all border border-[#38BDF8]/30 hover:border-[#38BDF8]/60"
-              >
-                <Globe className="text-[#38BDF8]" size={18} />
-              </a>
-              <a
-                href="mailto:karthikreddy7818@gmail.com"
-                className="w-10 h-10 bg-[#38BDF8]/20 rounded-lg flex items-center justify-center hover:bg-[#38BDF8]/30 transition-all border border-[#38BDF8]/30 hover:border-[#38BDF8]/60"
-              >
-                <Mail className="text-[#38BDF8]" size={18} />
-              </a>
             </div>
           </div>
 
@@ -103,17 +71,6 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
-        </div>
-
-        <div className="border-t border-[#38BDF8]/20 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} VaultNet. All rights reserved.
-            </p>
-            <p className="text-gray-400 text-sm">
-              Made with <span className="text-[#38BDF8]">VaultNet Confidential Edge AI</span>
-            </p>
           </div>
         </div>
       </div>

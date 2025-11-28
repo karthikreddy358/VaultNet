@@ -44,16 +44,6 @@ export default function Navbar() {
               </button>
             </div>
           </div>
-
-          <div className="hidden md:flex items-center space-x-4">
-            <button className="px-4 py-2 border border-[#38BDF8] text-[#38BDF8] rounded-lg hover:bg-[#38BDF8]/10 transition-all">
-              Sign In
-            </button>
-            <button className="px-4 py-2 bg-[#38BDF8] text-white rounded-lg hover:bg-[#1E90FF] transition-all shadow-lg shadow-[#38BDF8]/50">
-              Try Demo
-            </button>
-          </div>
-
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}

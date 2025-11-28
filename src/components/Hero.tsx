@@ -59,7 +59,7 @@ export default function Hero() {
                 <Shield className="text-[#38BDF8]" size={24} />
               </div>
               <h3 className="text-xl font-bold text-white mb-2">Secure Enclaves</h3>
-              <p className="text-gray-400 text-sm">Hardware-backed security isolation</p>
+              <p className="text-gray-400 text-sm">security isolation</p>
             </div>
 
             <div className="bg-gradient-to-br from-[#38BDF8]/10 to-transparent backdrop-blur-sm border border-[#38BDF8]/30 rounded-2xl p-6 hover:border-[#38BDF8]/60 transition-all hover:shadow-lg hover:shadow-[#38BDF8]/20 transform hover:-translate-y-1">

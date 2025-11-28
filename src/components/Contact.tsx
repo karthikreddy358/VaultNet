@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Mail, Phone, Linkedin, Github, Globe, Send } from 'lucide-react';
+import { Mail, Phone, Linkedin, Github, Send } from 'lucide-react';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -59,7 +59,7 @@ export default function Contact() {
                   <div>
                     <p className="text-gray-400 text-sm mb-1">Phone</p>
                     <a href="tel:+91" className="text-white hover:text-[#38BDF8] transition-colors text-lg">
-                      +91 [Your Number]
+                      +91 9945981348
                     </a>
                   </div>
                 </div>
@@ -68,7 +68,7 @@ export default function Contact() {
                   <p className="text-gray-400 text-sm mb-4">Connect with us</p>
                   <div className="flex space-x-4">
                     <a
-                      href="https://linkedin.com"
+                      href="https://www.linkedin.com/in/n-karthik-reddy-289106331/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-12 h-12 bg-[#38BDF8]/20 rounded-lg flex items-center justify-center hover:bg-[#38BDF8]/30 transition-all border border-[#38BDF8]/30 hover:border-[#38BDF8]/60 transform hover:-translate-y-1"
@@ -76,30 +76,16 @@ export default function Contact() {
                       <Linkedin className="text-[#38BDF8]" size={20} />
                     </a>
                     <a
-                      href="https://github.com"
+                      href="https://github.com/karthikreddy358"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-12 h-12 bg-[#38BDF8]/20 rounded-lg flex items-center justify-center hover:bg-[#38BDF8]/30 transition-all border border-[#38BDF8]/30 hover:border-[#38BDF8]/60 transform hover:-translate-y-1"
                     >
                       <Github className="text-[#38BDF8]" size={20} />
                     </a>
-                    <a
-                      href="https://portfolio.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="w-12 h-12 bg-[#38BDF8]/20 rounded-lg flex items-center justify-center hover:bg-[#38BDF8]/30 transition-all border border-[#38BDF8]/30 hover:border-[#38BDF8]/60 transform hover:-translate-y-1"
-                    >
-                      <Globe className="text-[#38BDF8]" size={20} />
-                    </a>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div className="bg-gradient-to-br from-[#38BDF8]/5 to-transparent backdrop-blur-sm border border-[#38BDF8]/20 rounded-2xl p-8">
-              <h4 className="text-xl font-bold text-white mb-4">Project Creator</h4>
-              <p className="text-2xl font-bold text-[#38BDF8] mb-2">Nasannagari Karthik Reddy</p>
-              <p className="text-gray-400">VaultNet Developer & Security Architect</p>
             </div>
           </div>
 

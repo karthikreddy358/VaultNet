@@ -8,17 +8,12 @@ VaultNet is a confidential edge AI system that performs credit scoring, financia
 
 KEY FEATURES
 
-# Confidential Edge AI: Local AI processing with zero cloud dependency.
-
-# Encrypted Inference: End-to-end encrypted model execution.
-
-# Secure Enclaves: Hardware-level isolation for sensitive data.
-
-# Federated Learning: Global model improvement without sharing raw data.
-
-# Zero Data Leakage: All operations run locally on the device.
-
-# Real-Time Scoring: Instant credit and risk assessments.
+* Confidential Edge AI: Local AI processing with zero cloud dependency.
+* Encrypted Inference: End-to-end encrypted model execution.
+* Secure Enclaves: Hardware-level isolation for sensitive data.
+* Federated Learning: Global model improvement without sharing raw data.
+* Zero Data Leakage: All operations run locally on the device.
+* Real-Time Scoring: Instant credit and risk assessments.
 
 APPLICATIONS
 

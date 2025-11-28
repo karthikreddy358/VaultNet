@@ -18,7 +18,7 @@ export default function Flow() {
 
             <div className="flex items-center justify-center">
               <img
-                src="/assets/flow.png"
+                src="/assets/Flow.png"
                 alt="VaultNet Flow Diagram"
                 className="rounded-2xl border border-[#38BDF8]/40 shadow-lg max-w-full h-auto"
               />
